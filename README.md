@@ -40,5 +40,41 @@ CREATE TABLE IF NOT EXISTS `vehicles_crud`.`Vehicles` (
 -> Mudar as configurações no application.properties
 	
 -> Dar Start na Aplicação
+
+-> Rotas e modelos de data:
+
+vehicle/ - POST
+Data: 
+"{
+"name": ,
+"description": ,
+"plate": ,
+"vehicle_type": {
+	"name": ,
+	"description": 
+	}
+}"
+
+vehicle/id - GET
+Data : N/A
+
+vehicle/ - PUT
+Data: 
+"{
+"name": ,
+"description": ,
+"plate": ,
+"vehicle_type": {
+	"name": ,
+	"description": 
+	}
+}"
+
+vehicle/id - DELETE
+Data: N/A
+
+vehicle/getAll - GET
+Data: N/A
+
 	
 	
