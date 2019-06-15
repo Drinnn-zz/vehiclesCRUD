@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `vehicles_crud`.`Vehicles` (
     REFERENCES `vehicles_crud`.`Vehicle_Types` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
-    
+   -- -----------------------------------------------------
     
 -> Mudar as configurações no application.properties
 	
