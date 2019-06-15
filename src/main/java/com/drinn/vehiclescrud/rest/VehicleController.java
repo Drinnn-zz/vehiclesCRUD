@@ -24,7 +24,7 @@ public class VehicleController {
     }
 
     @PutMapping()
-    public void update(Vehicle vehicle){
+    public void update(@RequestBody Vehicle vehicle){
         _appService.update(vehicle);
     }
 
